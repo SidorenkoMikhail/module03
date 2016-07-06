@@ -1,0 +1,141 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+ 
+ body{
+	background-color: #f9f9f9;
+	font-family: sans-serif;
+}
+
+.outer-container{
+    position: relative;
+	margin: 0px auto;
+	background-color: white;
+	width: 1050px;
+	height: 960px;
+    box-shadow: 0px 1px 2px 1px rgba(204,204,204,1);
+}
+
+.logo {
+    padding: 47px; 
+}
+
+.top_menu{
+	margin-left: 47px;
+	width: 951px;
+    background: url("../img/top_menu.jpg");
+}
+
+.top_menu li{
+	cursor: pointer;
+    display: inline-block;
+    font-size: 14.5px;
+}
+
+.top_menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+	padding: 11px 37px;
+	line-height: 40px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.top_menu li :hover {
+    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    background: -moz-linear-gradient(270deg, rgb(46, 46, 46) 20%, rgb(74, 74, 74) 76%);
+    border-right: 1px solid #959595; 
+    border-left: 1px solid #959595;
+} 
+
+.inner-container{
+    padding-top: 40px;
+}
+
+.left_menu{
+	margin-left: 47px;
+	list-style: none;
+	line-height: 40px;
+	float: left;
+    width: 240px;
+	
+}
+
+.left_menu li{
+    font-size: 13.33px;
+    padding-right: 90px;
+	border: 1px solid #c8c8c8;
+    margin-bottom: -1px;
+    display: block;
+    height: 40px;
+   
+}
+
+.left_menu a{
+	text-decoration: none;
+	padding: 8px 14px;
+	color: #656363 ;
+}
+
+.left_menu a:hover{
+     color: #2c2c2c;
+     padding-left: 25px;
+  }
+
+.container{
+	float: right;
+    width: 676px;
+	height: 389px;
+	margin-right: 50px;
+	border: 1px solid #c8c8c8;
+}
+
+.bicycle{
+	margin-left: 100px;
+    margin-top:  30px;
+    width: 500px;
+    height: 307px;
+}
+.text{
+	padding-top: 87px;
+	font-size: 14px;
+    line-height: 1.5;
+} 
+
+.footer{
+    position: absolute;
+    margin-left: 47px;
+	bottom: 20px;
+	width: 966px;
+    height: 40px;
+    background: url("../img/footer.jpg");
+	list-style: none;
+}
+
+.footer li{
+	cursor: pointer;
+	display: inline-block;
+    padding: 0px 30px 0px 24px;
+	line-height: 42px;
+    font-size: 14px;
+	color: black;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+	margin-left: 23px;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+.copyright{
+	float: right;
+    padding-right: 40px;
+}
+
+
+	 
+
+	
+
